@@ -1,6 +1,5 @@
 build:
-- go get github.com/codegangsta/cli
-- go build -o mycli
+- bundle install
 env:
-  APP_COMMAND: ./mycli
+  APP_COMMAND: ruby main.rb
 test: mocha
