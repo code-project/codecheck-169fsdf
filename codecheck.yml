@@ -1,0 +1,6 @@
+build:
+- go get github.com/codegangsta/cli
+- go build -o mycli
+env:
+  APP_COMMAND: ./mycli
+test: mocha
